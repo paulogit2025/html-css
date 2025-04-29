@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'minhafonte';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #12FF1A;
+}
+
+header > h1, header > p {
+    text-align: center;
+    background-color: #045521;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #045521;
+    padding: 10px;
+}
+
+nav > a {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #12FF6A;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: #12FFBB;
+    width: 1000px;
+    color: #045521;
+    text-decoration: underline;
+}
+
+/* main abaixo */
+
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+article > h2 {
+    color: #045521;
+}
+
+article > p, aside > p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+article > h2, article > h3 {
+    font-family: 'minhafonte';
+    text-align: center;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #12FFBB, #12ffbc00);
+    color: #045521;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    width: 100%;
+}
+
+/* Aside abaixo */
+
+aside {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #12FFBB;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h4 {
+    text-align: center;
+    background-color: #045521;
+    padding: 10px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 10px -10px;
+}
+
+li.esquerda {
+    margin-left: 20px;
+}
+
+ul#cima {
+    margin-top: -130px;
+    margin-bottom: 10px;
+}
+
+li.direita {
+    margin-left: 350px;
+}
+
+/* footer abaixo */
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #045521;
+    color: white;
+}
